@@ -30,6 +30,9 @@ header{
 header h1{
     float: left;
 }
+strong{
+    font-weight: 700;
+}
 .socials{
     float: right;
     margin-top: 20px;
@@ -97,9 +100,17 @@ header h1{
     float: left;
     margin-right: 20px;
     font-weight: 700;
+    min-height: 50px;
 }
 .cart-bloc{
     margin-bottom: 20px;
+}
+.cart-bloc p{
+    margin-bottom: 5px;
+}
+.cart-bloc li{
+    margin-left: 120px;
+    list-style-type: disc;
 }
 
 
