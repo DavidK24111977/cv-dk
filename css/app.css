@@ -166,4 +166,27 @@ strong{
     .credentials ul{
         text-align: left;
     }
-}
+    .date{
+        float: none;
+        margin-right: 0px;
+        font-weight: 700;
+        min-height: 20px;
+        width: 100%;
+    }
+    .cart-bloc li {
+        margin-left: 10px;
+    }
+    .col-3 {
+        width: 100%;
+        float: none;
+    }
+    .techno {
+        font-weight: 700;
+        margin-bottom:15px;
+        width: 100%;
+        display: block;
+    }
+    .cart{
+        padding-bottom: 20px;
+    }
+    }
