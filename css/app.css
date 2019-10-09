@@ -93,3 +93,38 @@ header h1{
 .training:before{
     content: "Formation";
 }
+.date{
+    float: left;
+    margin-right: 20px;
+    font-weight: 700;
+}
+.cart-bloc{
+    margin-bottom: 20px;
+}
+
+
+
+@media screen and (max-width: 1100px) {
+    header{
+        text-align: center;
+        padding: 10px 10px;
+        height: 400px;
+    }
+    header h1{
+        float: none;
+    }
+    .socials{
+        float: none;
+    }
+    #content{
+        width: 50%;
+        margin: -250px auto 0 auto;
+    }
+    .presentation{
+        text-align: center;
+        padding-bottom:20px;
+    }
+    .credentials ul{
+        text-align: left;
+    }
+}
