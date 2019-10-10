@@ -27,11 +27,16 @@ h1{
 h2{
     font-size: 40px;
 }
-header{
+header, footer{
     background-color: #183b51;
     color: #ffffff;
     padding: 50px 200px;
+}
+header{
     height: 200px;
+}
+footer{
+    height: 250px;
 }
 header h1{
     float: left;
@@ -118,6 +123,9 @@ strong{
     margin-left: 170px;
     list-style-type: disc;
 }
+footer h1{
+    margin-bottom: 20px;
+}
 .date::after{
     content: ":";
     margin-left: 2px;
@@ -125,6 +133,14 @@ strong{
 .col-3{
     width: 33.333%;
     float: left;
+}
+.col-2{
+    width: 50%;
+    float: left;
+}
+.col-r1{
+    width: 10%;
+    float: right;
 }
 .techno{
     font-weight: 700;
@@ -142,7 +158,38 @@ strong{
     color: #ddd;
 
 }
-
+input, textarea{
+    width: 85%;
+}
+input[type=text]{
+    height: 25px;
+}
+.my-select input{
+    width: 50px;
+}
+label{
+    width: 12%;
+    display: inline-block;
+}
+.input-group{
+    margin-bottom: 20px;
+}
+.btn{
+    display: inline-block;
+    font-weight: 700;
+    color: #183b51;
+    background-color: #ddd;
+    border: 1px solid #fff;
+    text-align: center;
+    vertical-align: middle;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+.btn:hover{
+    color: #fff;
+    background-color: #183b51;
+}
 @media screen and (max-width: 1100px) {
     header{
         text-align: center;
@@ -168,7 +215,7 @@ strong{
     }
     .date{
         float: none;
-        margin-right: 0px;
+        margin-right: 0;
         font-weight: 700;
         min-height: 20px;
         width: 100%;
