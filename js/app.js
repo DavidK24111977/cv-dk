@@ -25,7 +25,7 @@ $(document).ready(function(){
     $(".minus:eq(2)").click(function(){
         $(".minus:eq(2)").hide();
         $(".plus:eq(2)").show();
-        $(".career .tohide").hide();
+        $(".training .tohide").hide();
     });
     $(".plus:eq(2)").click(function(){
         $(".minus:eq(2)").show();
