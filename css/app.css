@@ -10,6 +10,19 @@ a{
 a, a:visited{
     color: inherit;
 }
+.expand{
+    text-align: right;
+    font-size: 40px;
+    color: #183b51;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+.minus{
+
+}
+.plus{
+    display: none;
+}
 .cart{
     background-color: #fff;
     box-shadow: 0 0 10px rgba(0,0,0,0.4);
