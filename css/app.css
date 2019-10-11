@@ -101,7 +101,16 @@ strong{
 .skill{
     padding: 40px 40px 20px 40px;
 }
-.career:before{
+/*.career:before{*/
+/*    font-family: 'Jura', sans-serif;*/
+/*    position: absolute;*/
+/*    font-size: 30px;*/
+/*    font-weight: 700;*/
+/*    color: #183b51;*/
+/*    top: -50px;*/
+/*    left: -50px;*/
+/*}*/
+.career h2{
     font-family: 'Jura', sans-serif;
     position: absolute;
     font-size: 30px;
@@ -110,15 +119,15 @@ strong{
     top: -50px;
     left: -50px;
 }
-.experience:before{
-    content: "Expériences";
-}
-.skill:before{
-    content: "Compétences";
-}
-.training:before{
-    content: "Formation";
-}
+/*.experience:before{*/
+/*    content: "Expériences";*/
+/*}*/
+/*.skill:before{*/
+/*    content: "Compétences";*/
+/*}*/
+/*.training:before{*/
+/*    content: "Formation";*/
+/*}*/
 .date{
     float: left;
     margin-right: 20px;
